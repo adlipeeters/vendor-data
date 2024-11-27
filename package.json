@@ -1,0 +1,21 @@
+{
+  "name": "vendor-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://adlipeeters@github.com/adlipeeters/vendor-data.git",
+  "author": "adlipeeters <adlipeeters@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.699.0",
+    "@aws-sdk/util-dynamodb": "^3.699.0",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

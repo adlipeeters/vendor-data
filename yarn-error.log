@@ -1,0 +1,36 @@
+Arguments: 
+  /home/adli-2000/.nvm/versions/node/v20.11.1/bin/node /mnt/d/yarn/bin/yarn.js init
+
+PATH: 
+  /opt/oracle/instantclient_18_5:/home/adli-2000/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/opt/oracle/instantclient_18_5:/home/adli-2000/.nvm/versions/node/v20.11.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Users/usati/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/usati/AppData/Local/Programs/Python/Python310/:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/xampp/php:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/yarn/bin/:/mnt/d/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/PuTTY/:/mnt/c/tools/ruby31/bin:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/instantclient/:/mnt/d/terraform_1.9.2_windows_amd64:/mnt/c/Program Files/nodejs/:/mnt/c/Users/usati/AppData/Local/pnpm:/mnt/c/tools/ruby31/bin:/mnt/c/Users/usati/AppData/Local/Microsoft/WindowsApps:/mnt/c/Visual Studio/Microsoft VS Code/bin:/mnt/c/Users/usati/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/usati/AppData/Local/Yarn/bin:/mnt/d/heroku/herokufiles/bin:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/usati/OneDrive/Desktop/memories_rpoject/server/heroku/bin:/mnt/c/Users/usati/.dotnet/tools:/mnt/d/IntelliJ IDEA 2022.1/bin:/mnt/c/Users/usati/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/usati/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/usati/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/mnt/c/Users/usati/AppData/Roaming/npm:/snap/bin:/home/adli-2000/.foundry/bin:/home/adli-2000/.foundry/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  20.11.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/mnt/d/yarn/lib/cli.js:137145:13)
+      at Interface.emit (node:events:518:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+      at ReadStream.emit (node:events:518:28)
+      at emitKeys (node:internal/readline/utils:371:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:518:28)
+      at addChunk (node:internal/streams/readable:559:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
